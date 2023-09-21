@@ -1,0 +1,24 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(255, 238, 0) ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.main {
+    width: 21em;
+    height: 36em;
+    background-image: linear-gradient(to bottom, rgb(72, 236, 31), rgb(240, 237, 73), rgb(173, 231, 190));
+    border: 0.1em outset rgba(0, 0, 0, 0.44);
+    border-radius: 30em/7em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    box-shadow: 0.8em 0.8em 0.5em -0.1em rgba(0, 0, 0, 0.65);
+}
