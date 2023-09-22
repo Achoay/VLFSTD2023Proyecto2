@@ -23,6 +23,11 @@ body {
     box-shadow: 0.8em 0.8em 0.5em -0.1em rgba(0, 0, 0, 0.65);
 }
 
+div {
+    display: block;
+}
+
+
 
 
 .top{
@@ -37,3 +42,49 @@ body {
     width: 18.6em;
     height: 2em;
 } 
+
+.center {
+    width: 18.6em;
+    height: 11em;
+    display: flex;
+}
+
+.borderRight, .borderLeft{
+    width: 3.3em;
+    height: 11em;
+}
+.redLight{
+    width: 0.6em;
+    height: 0.6em;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, rgb(181, 1, 1), rgb(72, 2, 2));;
+    color: white;
+    margin: 2em 0 0em 0.5em;
+}
+
+.power{
+    color: rgb(52, 51, 51);
+    font-size: xx-small;
+    font-weight: bold;
+    margin: 0.5em 0 0 1em;
+}
+
+.halfCircle{
+    color: rgb(52, 51, 51);
+    font-size: x-small;
+    margin-left: 2em;
+    margin-top: -1em;
+}
+.borderBottom{
+    width: 18.6em;
+    height: 3.8em;
+    border-radius: 60em/8em;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+
