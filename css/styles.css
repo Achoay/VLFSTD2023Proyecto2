@@ -150,7 +150,7 @@ body {
     border-top-left-radius: 0.3em;
     align-items: center;
 }
-.arrowLeft{
+.arrowLeft {
     border-top: solid 0.2em rgb(70, 70, 70);
     border-left: solid 0.2em rgb(60, 60, 60);
     border-bottom: solid 0.2em rgb(22, 22, 22);
@@ -162,14 +162,14 @@ body {
     background-image: linear-gradient(to right, rgb(52, 52, 52), rgb(39, 39, 39));
 }
 
-.arrowRight{
+.arrowRight {
     border-top: solid 0.2em rgb(60, 60, 60);
     border-right: solid 0.2em rgb(22, 22, 22);
     border-bottom: solid 0.2em rgb(20, 20, 20);
     border-top-right-radius: 0.3em;
     border-bottom-right-radius: 0.3em;  
 }
-.arrowBottom{
+.arrowBottom {
     border-bottom: solid 0.2em rgb(22, 22, 22);
     border-left: solid 0.2em rgb(60, 60, 60);
     border-right: solid 0.2em rgb(20, 20, 20);
@@ -177,13 +177,44 @@ body {
     border-bottom-left-radius: 0.3em;
 }
 
-.arrow, .empty{
+.arrow, .empty {
     color: rgb(21, 20, 20);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.emptyMiddle{
+.emptyMiddle {
     width: 5em;
     height: 7em;
+}
+
+
+.emptyRight{
+    width: 1.5em;
+    height: 7em;
+}
+.aroundButtonB, .aroundButtonA{
+    width: 2.5em;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonB, .buttonA{
+    width: 1.2em;
+    height: 1.2em;
+    background-image: linear-gradient(to right, rgb(57, 57, 57), rgb(39, 39, 39));
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    border: 0.06em solid rgba(0, 0, 0, 0.49);
+    border-right: 0.08em solid rgba(0, 0, 0, 0.864);
+}
+.buttonB{
+    margin-top: 0.5em;
+}
+ .buttonA{
+     margin-bottom: 1.2em;
 }
