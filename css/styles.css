@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
 }
 
 .main {
@@ -114,8 +115,6 @@ body {
 .middle {
     height: 7em;
     display: flex;
-    
-   
 }
 
 .cross{
@@ -216,4 +215,62 @@ body {
 }
  .buttonA{
      margin-bottom: 1.2em;
+}
+.buttonB:hover, .buttonA:hover{
+    background-image: linear-gradient(to right, rgb(99, 99, 99), rgb(39, 39, 39));
+    width: 1.1em;
+    height: 1.1em;
+}
+.arrow:hover{
+    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
+}
+.selectButton:hover, .startButton:hover{
+    width: 1.9em;
+    height: 0.6em;
+    background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
+}
+
+
+
+
+
+.bottom {
+    height: 8em;
+    display: flex;
+}
+.emptyLeft {
+    width: 7em;
+    height: 9em;
+}
+.bottomMiddle{
+    width: 7em;
+    height: 8em;
+}
+.ovalButtons{
+    width: 7em;
+    height: 4em;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+.selectButton, .startButton{
+    width: 2em;
+    height: 0.7em;
+    margin: 1.8em 0 0.6em 0.8em;
+    background-color: black;
+    border-radius: 2em;
+    box-shadow: 0 0 0 0.2em rgb(231, 211, 33);
+}
+.selectText, .startText{
+    width: 0.9em;
+    height: 0.9em;
+    font-family: sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: rgba(255, 187, 0, 0.808); 
+    margin-left: 0.6em;
+}
+.emptyBottom{
+    width: 7em;
+    height: 4em;
 }
