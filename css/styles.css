@@ -23,11 +23,6 @@ body {
     box-shadow: 0.8em 0.8em 0.5em -0.1em rgba(0, 0, 0, 0.65);
 }
 
-.div {
-    display: block;
-}
-
-
 
 
 .top{
@@ -124,8 +119,6 @@ body {
    
 }
 
-
-
 .cross{
     width: 5.5em;
     height: 5.5em;
@@ -134,7 +127,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
 }
-
 .aroundCross {
     width: 8em;
     height: 7em;
@@ -149,12 +141,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 .arrowTop {
     border-top: solid 0.2em rgb(33, 33, 33);
     border-left: solid 0.2em rgb(66, 66, 66);
     border-right: solid 0.2em rgb(25, 25, 25);
     border-top-right-radius: 0.3em;
     border-top-left-radius: 0.3em;
+    align-items: center;
 }
 .arrowLeft{
     border-top: solid 0.2em rgb(70, 70, 70);
@@ -183,6 +177,12 @@ body {
     border-bottom-left-radius: 0.3em;
 }
 
+.arrow, .empty{
+    color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .emptyMiddle{
     width: 5em;
     height: 7em;
