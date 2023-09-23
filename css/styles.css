@@ -1,7 +1,7 @@
 body {
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -114,3 +114,76 @@ body {
     color: rgba(255, 187, 0, 0.808);
 }
 
+
+
+
+.middle {
+    height: 7em;
+    display: flex;
+    
+   
+}
+
+
+
+.cross{
+    width: 5.5em;
+    height: 5.5em;
+    margin-left: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.aroundCross {
+    width: 8em;
+    height: 7em;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+
+}
+.empty {
+    color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrowTop {
+    border-top: solid 0.2em rgb(33, 33, 33);
+    border-left: solid 0.2em rgb(66, 66, 66);
+    border-right: solid 0.2em rgb(25, 25, 25);
+    border-top-right-radius: 0.3em;
+    border-top-left-radius: 0.3em;
+}
+.arrowLeft{
+    border-top: solid 0.2em rgb(70, 70, 70);
+    border-left: solid 0.2em rgb(60, 60, 60);
+    border-bottom: solid 0.2em rgb(22, 22, 22);
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+
+.arrow {
+    background-image: linear-gradient(to right, rgb(52, 52, 52), rgb(39, 39, 39));
+}
+
+.arrowRight{
+    border-top: solid 0.2em rgb(60, 60, 60);
+    border-right: solid 0.2em rgb(22, 22, 22);
+    border-bottom: solid 0.2em rgb(20, 20, 20);
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;  
+}
+.arrowBottom{
+    border-bottom: solid 0.2em rgb(22, 22, 22);
+    border-left: solid 0.2em rgb(60, 60, 60);
+    border-right: solid 0.2em rgb(20, 20, 20);
+    border-bottom-right-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+
+.emptyMiddle{
+    width: 5em;
+    height: 7em;
+}
