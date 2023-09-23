@@ -21,9 +21,18 @@ body {
     border-top-left-radius: 2em;
     border-top-right-radius: 2em;
     box-shadow: 0.8em 0.8em 0.5em -0.1em rgba(0, 0, 0, 0.65);
+    
 }
 
 
+
+
+
+
+
+
+
+/* Screen */
 
 .top{
     width: 18.6em;
@@ -84,11 +93,11 @@ body {
 .screen{
     width: 12em;
     height: 11em;
-    background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(52, 51, 51));
+    background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(95, 95, 95));
 }
 
 
-
+/* Logo */
 
 .logo{
     width: 21em;
@@ -110,12 +119,14 @@ body {
 }
 
 
-
+/* Middle*/
 
 .middle {
     height: 7em;
     display: flex;
 }
+
+/* Buttons A/B */
 
 .cross{
     width: 5.5em;
@@ -216,6 +227,9 @@ body {
  .buttonA{
      margin-bottom: 1.2em;
 }
+
+/* Buttons A/B Hoover */
+
 .buttonB:hover, .buttonA:hover{
     background-image: linear-gradient(to right, rgb(99, 99, 99), rgb(39, 39, 39));
     width: 1.1em;
@@ -230,9 +244,7 @@ body {
     background-image: linear-gradient(to right, rgb(44, 44, 44), rgb(19, 19, 19));
 }
 
-
-
-
+/* Buttons Select/Start */
 
 .bottom {
     height: 8em;
@@ -273,4 +285,37 @@ body {
 .emptyBottom{
     width: 7em;
     height: 4em;
+}
+
+/*Speaker*/
+
+.aroundDots{
+    width: 8em;
+    height: 8em;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+    
+}
+.dots{
+    width: 5em;
+    height: 5em;
+    margin-bottom: 0.5em;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    transform: rotate(-7deg);
+}
+.black, .white{
+    width: 0.37em;
+    height: 0.37em;
+    border-radius:50%;
+}
+.black{
+    background-color:black;
+    border: 0.01em inset rgba(255, 187, 0, 0.808); 
+}
+.white{
+    background-color: yellow;
+    border: 0.08em inset  rgba(255, 187, 0, 0.808); 
 }
