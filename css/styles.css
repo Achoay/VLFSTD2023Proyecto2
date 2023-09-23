@@ -24,14 +24,6 @@ body {
     
 }
 
-
-
-
-
-
-
-
-
 /* Screen */
 
 .top{
@@ -96,6 +88,15 @@ body {
     background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(95, 95, 95));
 }
 
+/* Screen / Javasript */
+
+.turnOn{
+
+    background-image: url(https://j.gifs.com/KYLlL4.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+}
 
 /* Logo */
 
