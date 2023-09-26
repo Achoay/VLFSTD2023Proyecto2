@@ -85,24 +85,13 @@ body {
 .screen{
     width: 12em;
     height: 11em;
-    background-image: linear-gradient(to right, rgb(125, 124, 124), rgb(95, 95, 95));
+    background-color: grey;
 }
 
 /* Screen / Javascript */
 
-.turnOn{
 
-    background-image: url(https://j.gifs.com/KYLlL4.gif);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-color: rgba(255, 255, 255, 0.963);
-}
-.selectOn{
 
-    background-image: url(https://tenor.com/boEqF.gif);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
 
 
 /* Logo */
