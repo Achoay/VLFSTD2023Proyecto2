@@ -82,17 +82,11 @@ body {
     justify-content: center;
     align-items: center;
 } 
-.screen{
+.screen {
     width: 12em;
     height: 11em;
     background-color: grey;
 }
-
-/* Screen / Javascript */
-
-
-
-
 
 /* Logo */
 
@@ -221,8 +215,8 @@ body {
 .buttonB{
     margin-top: 0.5em;
 }
- .buttonA{
-     margin-bottom: 1.2em;
+.buttonA{
+    margin-bottom: 1.2em;
 }
 
 /* Buttons A/B Hoover */
