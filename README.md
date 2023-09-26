@@ -34,12 +34,12 @@
 
 #### <span style="font-family:Verdana">La Game Boy Color (GBC) es la consola portátil de Nintendo que siguió a la Game Boy, lanzada el 21 de Octubre de 1998 en Japón y poco después, en Noviembre, en EEUU, Europa y Australia. 
 
-  #### <span style="font-family:Verdana">Fabricante: Nintendo
-  #### <span style="font-family:Verdana">Procesador: Zilog Z80 (8-bit) @ 4 o 8 MHz
-  #### <span style="font-family:Verdana">Formato: Cartuchos
-  #### <span style="font-family:Verdana">Librería de juegos: 467 propios de Game <span style="font-family:Verdana">Boy Color, aunque también se podrían sumar los de Game Boy.
-  #### <span style="font-family:Verdana">Precio Original: 12.990 ptas (78€)
-  #### <span style="font-family:Verdana">Ventas: Nintendo siempre se ha negado a dar las cifras por separado. Juntas, las Game Boy y Game Boy Color vendieron 118,690 millones de unidades.
+  #### <p style="font-family:Verdana">Fabricante: Nintendo
+  #### <p style="font-family:Verdana">Procesador: Zilog Z80 (8-bit) @ 4 o 8 MHz
+  #### <p style="font-family:Verdana">Formato: Cartuchos
+  #### <p style="font-family:Verdana">Librería de juegos: 467 propios de Game #### <p style="font-family:Verdana">Boy Color, aunque también se podrían sumar los de Game Boy.
+  #### <p style="font-family:Verdana">Precio Original: 12.990 ptas (78€)
+  #### <p style="font-family:Verdana">Ventas: Nintendo siempre se ha negado a dar las cifras por separado. Juntas, las Game Boy y Game Boy Color vendieron 118,690 millones de unidades.
 
 ![GameBoy-Color-Yellow-box] (./imagenes/game boy color box.jpg)
 
